@@ -5,7 +5,7 @@ To develop a Django application to store and retrieve data from a database using
 
 ## Entity Relationship Diagram
 
-![Entity Relationship Diagram](./er.png)
+![Entity Relationship Diagram](./w.png)
 
 ## DESIGN STEPS
 
@@ -21,7 +21,7 @@ Execute Django admin and create 10 employees
 
 ## PROGRAM
 
-'''
+```
 Model.py
 
 from django.db import models
@@ -41,8 +41,7 @@ class EmployeeAdmin(admin.ModelAdmin):
 from django.contrib import admin
 from .models import Employee,EmployeeAdmin
 admin.site.register(Employee,EmployeeAdmin)
-    '''
-
+```
 ## OUTPUT
 
 ![OUTPUT](./Out.png)
